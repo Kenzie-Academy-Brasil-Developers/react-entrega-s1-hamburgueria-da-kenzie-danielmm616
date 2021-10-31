@@ -1,0 +1,270 @@
+.productBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 350px;
+  left: 435px;
+  top: 470px;
+  padding: 20px;
+
+  background: #ffffff;
+  /* grey-100 */
+
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.productBox p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* grey-300 */
+
+  color: #828282;
+  text-align: left;
+}
+
+.productBox button {
+  width: 106px;
+  height: 40px;
+  left: 20px;
+  top: 133px;
+
+  /* color-primary */
+
+  background: #27ae60;
+  /* color-primary */
+
+  border: 2px solid #27ae60;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.productBox h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  color: #333333;
+  margin: 0;
+  text-align: left;
+}
+
+.productBox h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #27ae60;
+  margin: 0;
+  text-align: left;
+}
+
+.mainProducts {
+  display: flex;
+  /* flex-flow: row nowrap; */
+  flex-wrap: wrap;
+  margin: 5px 0;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.productCart img {
+  width: 70px;
+  height: 70px;
+}
+
+.productCart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productCart h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  color: #333333;
+}
+
+.removeTudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+
+  width: 302px;
+  height: 60px;
+
+  /* grey-100 */
+
+  background: #e0e0e0;
+  /* grey-100 */
+
+  border: 2px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* grey-300 */
+
+  color: #828282;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.productCart button {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* Gray 4 */
+
+  color: #bdbdbd;
+  height: 20px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.productCart p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* grey-300 */
+
+  color: #828282;
+}
+
+.mainCart {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 302px;
+}
+
+.mainCart span h3 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* grey-300 */
+
+  color: #828282;
+}
+
+.mainCart span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainCart h2 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* grey-600 */
+
+  color: #333333;
+}
+
+.headCart {
+  width: 302px;
+  height: 65px;
+  left: 16px;
+  top: 520px;
+
+  /* color-primary */
+
+  background: #27ae60;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.headCart h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.productCart {
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+
+.productsCart {
+  background: #f5f5f5;
+  border-radius: 0px 0px 5px 5px;
+  margin-bottom: 20px;
+}
+
+.imgbox {
+  background: #e0e0e0;
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sacolaVazia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sacolaVazia h3 {
+  font-size: 18px;
+  line-height: 24px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #333333;
+}
+
+#sacolaVazia p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+
+  /* grey-300 */
+
+  color: #828282;
+}
