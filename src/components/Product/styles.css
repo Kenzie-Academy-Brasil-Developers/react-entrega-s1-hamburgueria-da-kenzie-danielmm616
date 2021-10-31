@@ -152,6 +152,7 @@ img {
   border: none;
   margin-top: 10px;
   cursor: pointer;
+  background: #f5f5f5;
 }
 
 .productCart p {
@@ -186,6 +187,8 @@ img {
 .mainCart span {
   display: flex;
   justify-content: space-between;
+  width: 85%;
+  margin-left: 22px;
 }
 
 .mainCart h2 {
